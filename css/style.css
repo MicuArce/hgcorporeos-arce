@@ -1,0 +1,207 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estílos de encabezado */
+
+body {
+    background-color: #082032;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.encabezado {
+    padding-right: 0.5rem;
+}
+
+.imagenLogo {
+    padding: 0.5rem;
+}
+
+/* Barra de navegación */
+nav {
+    text-align: end;
+    padding: 0.5rem;
+    margin: 0.1rem;
+}
+
+
+/* Estílos de enlases */
+a {
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.2rem;
+}
+
+
+/* Estílos de Barra de Navegación */
+nav ul li {
+    font-size: 15px;
+    font-family: 'Lora', serif;
+    display: inline-block;
+}
+
+
+/* Estílos de main */
+.centrodePagina {
+    justify-content: center;
+    justify-items: center;
+    padding: 1rem;
+    display: grid;
+    grid-template-areas: "h1 h1 h1"
+        "imagenP imagenP imagenP"
+        "imagenUno imagenDos imagenTres"
+        "mainP mainP mainP"
+        "imagenS infoDatos infoDatos";
+}
+
+h1 {
+    grid-area: h1;
+    color: white;
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 0.5rem;
+}
+
+.imagenP {
+    grid-area: imagenP;
+    padding: 0.1rem;
+}
+
+.imagenUno {
+    grid-area: imagenUno;
+    margin: 0.1rem;
+}
+
+.imagenDos {
+    grid-area: imagenDos;
+    margin: 0.1rem;
+}
+
+.imagenTres {
+    grid-area: imagenTres;
+    margin: 0.1rem;
+}
+
+.mainP {
+    grid-area: mainP;
+    color: white;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+}
+
+.imagenS {
+    grid-area: imagenS;
+    display: flex;
+    padding: 1rem;
+}
+
+.infoDatos {
+    grid-area: infoDatos;
+}
+
+
+/* Pie de página texto */
+.piedePagina P {
+    color: white;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+
+
+/* Derechos de autor */
+h4 {
+    color: white;
+    font-size: 12px;
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+/* Mq */
+
+@media screen and (min-width:600px) {
+    body {
+        background-color: #082032;
+    }
+}
+
+@media screen and (min-widt:1024px) {
+    body {
+        background-color: #082032;
+    }
+
+}
+
+
+/* Estílos de main */
+.centrodePagina {
+    justify-content: center;
+    justify-items: center;
+    padding: 1rem;
+    display: grid;
+    grid-template-areas: "h1 h1 h1"
+        "imagenP imagenP imagenP"
+        "imagenUno imagenDos imagenTres"
+        "mainP mainP mainP"
+        "imagenS infoDatos infoDatos";
+}
+
+/* Estílos Nosotros */
+
+/* Estilos de Imagen principal Nosotros */
+.imagenNosotros {
+    margin: 20px;
+}
+
+
+/* Estílos Galería */
+
+.imagenesGaleria {
+    margin: 0px 210px;
+}
+
+
+/* Estílos Contacto */
+
+.imagenMapa {
+    margin: 20px 20px;
+}
+
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.datosdeContacto {
+    text-align: center;
+}
+
+/* Estílos de Cotización */
+
+.subtituloCotizacion {
+    font-size: 25px;
+}
+
+.formulario {
+    margin: 0px 20px;
+    font-size: 18px;
+    font-family: 'Lora', serif;
+}
