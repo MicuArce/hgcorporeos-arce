@@ -43,6 +43,12 @@ a {
 }
 
 
+.imagenLogo :hover{
+    transform: scale(1.1);
+}
+
+
+
 /* Estílos de Barra de Navegación */
 nav ul li {
     font-size: 15px;
@@ -76,6 +82,10 @@ h1 {
 .imagenP {
     grid-area: imagenP;
     padding: 0.1rem;
+}
+
+.imagenP :hover{
+    transform: scale(0.9)
 }
 
 .imagenUno {
