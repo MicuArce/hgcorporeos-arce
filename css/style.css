@@ -9,56 +9,65 @@
 
 body {
     background-color: #082032;
+    font-family: 'Playfair Display', serif;
 }
 
 header {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
     align-items: center;
+    padding: 20px;
 }
 
 .encabezado {
-    padding-right: 0.5rem;
+    padding-right: 0.5em;
+    margin: 0.5rem;
 }
 
 .imagenLogo {
-    padding: 0.5rem;
+    display: flex;
+    padding: 1.5rem;
+    align-items: center;
+}
+
+.imagenLogo img {
+    height: 110px;
+    margin-right: 10px;
 }
 
 /* Barra de navegación */
+
 nav {
     text-align: end;
-    padding: 0.5rem;
-    margin: 0.1rem;
+    padding: 1.5rem;
+    margin: 1rem;
 }
 
 
 /* Estílos de enlases */
+
 a {
     list-style-type: none;
     color: white;
     text-decoration: none;
-    font-size: 1rem;
-    padding: 0.2rem;
+    font-size: 1.3rem;
+    padding-right: 1rem;
 }
 
 
-.imagenLogo :hover{
+.imagenLogo:hover {
     transform: scale(1.1);
 }
 
-
-
-/* Estílos de Barra de Navegación */
+/* Estílos de barra de Navegación */
 nav ul li {
-    font-size: 15px;
-    font-family: 'Lora', serif;
     display: inline-block;
 }
 
 
 /* Estílos de main */
-.centrodePagina {
+centrodePagina {
     justify-content: center;
     justify-items: center;
     padding: 1rem;
@@ -73,10 +82,10 @@ nav ul li {
 h1 {
     grid-area: h1;
     color: white;
-    font-family: 'Lora', serif;
+    font-size: 12px;
     text-align: center;
-    font-size: 1.4rem;
-    padding: 0.5rem;
+    font-size: 2.2rem;
+    padding: 0.8rem;
 }
 
 .imagenP {
@@ -84,38 +93,65 @@ h1 {
     padding: 0.1rem;
 }
 
-.imagenP :hover{
-    transform: scale(0.9)
+.imagenP img {
+    height: 800px;
 }
+
 
 .imagenUno {
     grid-area: imagenUno;
-    margin: 0.1rem;
+    margin: 0.5rem;
+}
+
+.imagenUno img {
+    height: 200px;
+    width: 320px;
 }
 
 .imagenDos {
     grid-area: imagenDos;
-    margin: 0.1rem;
+    margin: 0.5rem;
+}
+
+.imagenDos img {
+    height: 200px;
+    width: 320px;
 }
 
 .imagenTres {
     grid-area: imagenTres;
-    margin: 0.1rem;
+    margin: 0.5rem;
+
+}
+
+.imagenTres img {
+    height: 200px;
+    width: 320px;
 }
 
 .mainP {
+    font-family: 'Playfair Display', serif;
     grid-area: mainP;
     color: white;
     text-align: center;
-    font-family: 'Lora', serif;
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     padding: 0.5rem;
 }
 
 .imagenS {
     grid-area: imagenS;
+}
+
+.imagenS {
     display: flex;
-    padding: 1rem;
+    padding: 2rem;
+    margin: 1rem;
+    align-items: center;
+}
+
+.imagenS img {
+    height: 100px;
+    margin-right: 10px;
 }
 
 .infoDatos {
@@ -124,24 +160,35 @@ h1 {
 
 
 /* Pie de página texto */
+.piedePagina {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+    padding: 20px;
+}
+
 .piedePagina P {
     color: white;
     font-size: 20px;
-    font-family: 'Lora', serif;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     padding: 0.5rem;
 }
-
 
 
 /* Derechos de autor */
 h4 {
     color: white;
     font-size: 12px;
-    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
     text-align: center;
+    padding: 1rem;
 }
+
+.derechosAutor{
+text;
+}
+
 
 /* Mq */
 
