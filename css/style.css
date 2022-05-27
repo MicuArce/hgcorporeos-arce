@@ -158,7 +158,6 @@ h1 {
     grid-area: infoDatos;
 }
 
-
 /* Pie de página texto */
 .piedePagina {
     display: flex;
@@ -187,50 +186,15 @@ h4 {
 
 
 
-
-/* Mq */
-
-@media screen and (min-width:600px) {
-    body {
-        background-color: #082032;
-    }
-}
-
-@media screen and (min-widt:1024px) {
-    body {
-        background-color: #082032;
-    }
-
-}
-
-
-/* Estílos de main */
-.centrodePagina {
-    justify-content: center;
-    justify-items: center;
-    padding: 1rem;
-    display: grid;
-    grid-template-areas: "h1 h1 h1"
-        "imagenP imagenP imagenP"
-        "imagenUno imagenDos imagenTres"
-        "mainP mainP mainP"
-        "imagenS infoDatos infoDatos";
-}
-
 /* Estílos Nosotros */
-
-/* Estilos de Imagen principal Nosotros */
-.imagenNosotros {
-    margin: 20px;
-}
-
-.nav-item{
-    color: white;
-}
 
 p {
     color: white;
     text-align: center;
+}
+
+.imagenEmpresa {
+    align-items: center;
 }
 
 
@@ -268,4 +232,19 @@ h2 {
     margin: 0px 20px;
     font-size: 18px;
     font-family: 'Lora', serif;
+}
+
+/* Mq */
+
+@media screen and (min-width:600px) {
+    body {
+        background-color: #082032;
+    }
+}
+
+@media screen and (min-widt:1024px) {
+    body {
+        background-color: #082032;
+    }
+
 }
